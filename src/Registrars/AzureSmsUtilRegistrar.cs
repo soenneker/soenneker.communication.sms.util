@@ -24,7 +24,7 @@ public static class AzureSmsUtilRegistrar
     /// </summary>
     public static void AddAzureSmsUtilAsScoped(this IServiceCollection services)
     {
-        services.AddSmsClientUtilAsScoped();
+        services.AddSmsClientUtilAsSingleton();
         services.TryAddScoped<IAzureSmsUtil, AzureSmsUtil>();
     }
 }
