@@ -43,6 +43,6 @@
 
     <ItemGroup>
         <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.2" />
-        <PackageReference Include="Soenneker.Communication.Sms.Client" Version="2.1.781" />
+        <PackageReference Include="Soenneker.Communication.Sms.Client" Version="2.1.783" />
     </ItemGroup>
 </Project>
