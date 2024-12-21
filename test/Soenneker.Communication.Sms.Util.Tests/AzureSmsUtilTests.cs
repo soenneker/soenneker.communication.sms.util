@@ -14,4 +14,10 @@ public class AzureSmsUtilTests : FixturedUnitTest
     {
         _util = Resolve<IAzureSmsUtil>(true);
     }
+
+    [Fact]
+    public void Default()
+    {
+
+    }
 }
