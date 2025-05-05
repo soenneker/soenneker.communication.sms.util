@@ -1,4 +1,4 @@
-# Contributing to Soenneker.Communication.Sms.Util
+﻿# Contributing to Soenneker.Communication.Sms.Util
 
 We're excited that you're interested in contributing!
 
