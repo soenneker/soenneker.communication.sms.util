@@ -8,7 +8,7 @@ using Microsoft.Extensions.Logging;
 namespace Soenneker.Communication.Sms.Util;
 
 /// <inheritdoc cref="IAzureSmsUtil"/>
-public class AzureSmsUtil : IAzureSmsUtil
+public sealed class AzureSmsUtil : IAzureSmsUtil
 {
     private readonly ISmsClientUtil _smsClientUtil;
     private readonly ILogger<AzureSmsUtil> _logger;
