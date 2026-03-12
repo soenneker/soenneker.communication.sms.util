@@ -27,7 +27,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\..\src\Soenneker.Communication.Sms.Util.csproj" />
+        <ProjectReference Include="..\..\src\Soenneker.Communication.Sms.Util\Soenneker.Communication.Sms.Util.csproj" />
     </ItemGroup>
 
     <ItemGroup>
