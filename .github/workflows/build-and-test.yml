@@ -38,7 +38,7 @@ jobs:
         run: dotnet build test/Soenneker.Communication.Sms.Util.Tests/Soenneker.Communication.Sms.Util.Tests.csproj --configuration Release --no-restore --verbosity minimal
 
       - name: Test
-        run: dotnet test test/Soenneker.Communication.Sms.Util.Tests/Soenneker.Communication.Sms.Util.Tests.csproj --configuration Release --no-build --no-restore --verbosity minimal
+        run: dotnet test --project test/Soenneker.Communication.Sms.Util.Tests/Soenneker.Communication.Sms.Util.Tests.csproj --configuration Release --no-build --no-restore --verbosity minimal
 
       - name: Pack
         run: dotnet pack src/Soenneker.Communication.Sms.Util/Soenneker.Communication.Sms.Util.csproj --configuration Release --no-build --no-restore --output . --verbosity minimal
