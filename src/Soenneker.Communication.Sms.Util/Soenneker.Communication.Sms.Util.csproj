@@ -44,6 +44,6 @@
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="Soenneker.Communication.Sms.Client" Version="4.0.1674" />
+        <PackageReference Include="Soenneker.Communication.Sms.Client" Version="4.0.1675" />
     </ItemGroup>
 </Project>
