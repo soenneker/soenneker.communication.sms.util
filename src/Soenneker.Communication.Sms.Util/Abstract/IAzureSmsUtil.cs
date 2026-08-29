@@ -8,11 +8,11 @@ namespace Soenneker.Communication.Sms.Util.Abstract;
 public interface IAzureSmsUtil
 {
     /// <summary>
-    /// Executes the send operation.
+    /// Sends azure Sms.
     /// </summary>
-    /// <param name="from">The from.</param>
-    /// <param name="to">The to.</param>
-    /// <param name="message">The message.</param>
-    /// <returns>A task that represents the asynchronous operation.</returns>
+    /// <param name="from">Sender address.</param>
+    /// <param name="to">Recipient address.</param>
+    /// <param name="message">Message content to send.</param>
+    /// <returns>A task that completes when the send operation is complete.</returns>
     ValueTask Send(string from, string to, string message);
 }
